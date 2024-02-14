@@ -1,0 +1,21 @@
+.container-fluid{
+    margin-bottom: 100px;
+}
+
+
+
+
+.bg1{
+    background-color: green;
+       
+}
+
+.bg2{
+    background-color: aqua;
+}
+
+img{
+
+    height:300px;
+    width:300px;
+}
