@@ -10,7 +10,9 @@ h1{
     font-style: normal;
 }
 
-
+.navbar-collapse.in{
+    display: block !important;
+}
 .bg1{
     background-color: green;
        

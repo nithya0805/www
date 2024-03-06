@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
@@ -17,26 +17,44 @@
 
     <body>
 
-<div class = "container-fluid text-center bg1">
+
+<nav class = "navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+    <button class= "navbar-toggler" type = "button" data-toggle="collapse" data-target="#open">
+        <span class = "navbar-toggler-icon">
+
+    </span>
+</button>
+<div class = "collapse navbar-collapse" id = "open">
+    <ul class = "navbar-nav ml-auto">
+        <li class = "nav-item"><a href="#beachh1" class = "nav-link">WHO</a></li>
+        <li class = "nav-item"><a href = "#beachh2" class = "nav-link">WHAT</a></li>
+        <li class = "nav-item"><a href = "#beachh3" class = "nav-link">WHERE</a></li>
+    </ul>
+</div>
+</nav>
+
+<div class = "container-fluid text-center bg1" id="beachh1">
 <h1>WHO AM I?</h1>
 <img class = "img-fluid rounded-circle" src="./images/sunset img.avif">
 <h2>I am a beach!!</h2>
 </div>
 
-<div class = "container-fluid text-center bg2">
+<div class = "container-fluid text-center bg2" id="beachh2">
     <h1>WHAT AM I?</h1>
     <h2>I am a sandy beautiful beach filled with heavenly water with glimmers of sun rays reflecting upon me.</h2>
     <a href = "#" class = "btn btn-outline-secondary"><span class = "fa fa-search"></span>search!!</a>
 </div>
 
-<div class = "container-fluid text-center bg3">
+<div class = "container-fluid text-center bg3" id="beachh3">
     <h1>WHERE TO FIND ME?</h1>
 <div class = "row">
     <div class = "col-sm-4">
         <img class = "img-responsive" src = "./images/beach1.jpg" alt="beach 1 image">
+        <p>Beaches are beautiful espeically with the sunset it is so calming and peaceful.</p>
     </div>
     <div class = "col-sm-4">
         <img class = "img-responsive" src = "./images/beach2.jpg" alt="beach 2 image">
+
     </div>
     <div class = "col-sm-4">
         <img class = "img-responsive" src = "./images/beach3.webp" alt="beach 3 image">
